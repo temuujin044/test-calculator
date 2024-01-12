@@ -1,0 +1,27 @@
+.buttons {
+  display: flex;
+  height: 400px;
+}
+.sec1 button {
+  width: 80px;
+  height: 80px;
+  border: solid 0.5px #464647;
+  color: white;
+}
+.sec1 .numberButtons button {
+  background-color: #777677;
+}
+
+.sec1 .operButtons button {
+  background-color: #585859;
+}
+.sec1 .operButtons {
+  display: flex;
+}
+.sec2 button {
+  width: 80px;
+  height: 80px;
+  background-color: #f1a23d;
+  border: solid 0.5px #464647;
+  color: white;
+}

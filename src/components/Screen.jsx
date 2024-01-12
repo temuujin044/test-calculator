@@ -1,5 +1,5 @@
 import "../styles/screen.css";
 import React from "react";
-export default function Screen() {
-  return <div className="screen"></div>;
+export default function Screen({ value }) {
+  return <div className="screen">{value}</div>;
 }
